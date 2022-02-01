@@ -1,14 +1,12 @@
-# Forge Template
-
-A template for quickly getting started with forge
+# Radicle Drips Github
+Radicle Drips Contracts to drip Github projects.
 
 ## Getting Started
 
+The project is developed with [foundry](https://github.com/gakonst/foundry) and is build on the following [template](https://github.com/FrankieIsLost/forge-template)
+
 ```
-mkdir my-project
-cd my-project
-forge init --template https://github.com/FrankieIsLost/forge-template
-git submodule update --init --recursive  ## initialize submodule dependencies
+forge update ## install solidity dependencies
 npm install ## install development dependencies
 forge build
 forge test
